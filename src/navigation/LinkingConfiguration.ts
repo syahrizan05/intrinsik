@@ -6,19 +6,29 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Home: {
             screens: {
-              TabOneScreen: 'one',
+              Home: 'home',
             },
           },
-          TabTwo: {
+          Weekly: {
             screens: {
-              TabTwoScreen: 'two',
+              Weekly: 'weekly',
+              Detail: 'detail'
             },
+
           },
         },
       },
       NotFound: '*',
+      Authentication: 'login',   
+      Registration: {
+        screens: {
+          Register: 'register',
+          RegisterSuccess: 'register-success',
+        },
+
+      },
     },
   },
 };
